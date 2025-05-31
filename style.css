@@ -66,12 +66,11 @@ header{
 .dostaw{
     padding: 0 30px;
     height: 70px;
-    width: 400px;
+    width: 500px;
     border-radius: 50px;
     background-color: #96cb83;
     border: 3px solid #96cb83;
-    color: #000000;
-
+    color: #000000
 
 
     
@@ -112,6 +111,7 @@ header{
     width: 100%;
     border: none;
     display: block;
+    
 
 
     
@@ -121,6 +121,7 @@ header{
     height: 200px;
     border: none;
     display: flex;
+    border-radius: 25px
 }
 .product {
    
@@ -189,7 +190,7 @@ header{
 
 .gallery-item img {
     width: 100%;
-    height: auto;
+    height: 100px;
     display: block;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -447,13 +448,21 @@ footer a:hover {
 
 
 .selling{
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.selling .button{
     text-align: center;
     border: none;
-    background-color: #526E48;
-    opacity: 80%;
+    background-color: #9EDF9C;
     color: #A7A7A7;
-    
-    height: 20px;
+    width: 500px;
     font-size: 16px;
-    border-radius: 0 0 25px 25px;
+    border-radius: 0px 0px 25px 25px;
+    padding: 10px 20px;
 }
